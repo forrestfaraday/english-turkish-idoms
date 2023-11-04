@@ -40,4 +40,12 @@ This repository contains a collection of English-Turkish idioms with their liter
     </table>
 </figure>
 ```
+## Web Scraping
 
+Bu projede, belirli bir web sitesinden veri çekmek için web scraping yöntemi kullanılmıştır. Web scraping, bir web sitesinin HTML içeriğini çekmek ve bu içerikten belirli bilgileri çıkarmak için kullanılan bir tekniktir.
+
+Python dilinde, BeautifulSoup ve requests gibi kütüphaneler bu işlemi kolaylaştırır. İlk olarak, `requests.get(URL)` ile hedef web sitesine bir HTTP isteği gönderilir. Sunucu, web sayfasının HTML içeriğini döndürerek bu isteğe yanıt verir.
+
+Ardından, BeautifulSoup kütüphanesi ile bu HTML içeriği parse edilir ve veri çıkarımı yapılır. BeautifulSoup, HTML içeriğini ağaç yapısına dönüştürerek, içerik üzerinde kolayca gezinme ve arama yapmayı sağlar.
+
+Önemli Not: Web scraping yaparken, hedef web sitesinin kullanım şartlarına ve gizlilik politikasına dikkat etmek önemlidir. Eğer bir web sitesi scraping'i açıkça yasaklıyorsa, bu site üzerinde scraping işlemi yapmamalıyız. Ayrıca, scraping işlemi, bir web sitesinin kaynaklarını yoğun bir şekilde kullanabilir ve bu durum site sahibine zarar verebilir. Bu nedenle, scraping işlemlerini sorumlu ve etik bir şekilde gerçekleştirmeliyiz.
