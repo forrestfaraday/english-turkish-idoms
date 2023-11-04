@@ -4,12 +4,12 @@ This repository contains a collection of English-Turkish idioms with their liter
 
 ## Table Format
 
-The table format used in this repository is as follows:
-# a single idiom table
-# first tr is the turkish idiom. Second td of first tr is the idiom
-# second tr is the literal translation. Second td of second tr is the literal translation
-# third tr is the english equivalent. third tr has only one td. It contains explanation, example sentence and english equivalent sentence.
-# fourth tr is the example
+**The table format used in this repository is as follows:**
+- a single idiom table
+- first tr is the turkish idiom. Second td of first tr is the idiom
+- second tr is the literal translation. Second td of second tr is the literal translation
+- third tr is the english equivalent. third tr has only one td. It contains explanation, example sentence and english equivalent sentence.
+- fourth tr is the example
 
 ```html
 <figure class="wp-block-table">
